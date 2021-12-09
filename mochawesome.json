@@ -1,0 +1,145 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 3,
+    "passes": 3,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-12-09T23:14:37.472Z",
+    "end": "2021-12-09T23:14:45.527Z",
+    "duration": 8055,
+    "testsRegistered": 3,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "7b2ee2b7-997d-4399-bb66-02387fec0c31",
+      "title": "",
+      "fullFile": "cypress/integration/end-to-end-login.spec.js",
+      "file": "cypress/integration/end-to-end-login.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "fd508a18-b975-44fb-926f-5e670eab6399",
+          "title": "Validar rotina de login",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Login com sucesso: Ao informar email/senha válidos, então o feed deve ser exibido",
+              "fullTitle": "Validar rotina de login Login com sucesso: Ao informar email/senha válidos, então o feed deve ser exibido",
+              "timedOut": null,
+              "duration": 5102,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_index.default.realizarLoginComSucesso();\n_index.default.validaTelaFeed();",
+              "err": {},
+              "uuid": "d988a85f-f153-464a-b086-009e8b0285a2",
+              "parentUUID": "fd508a18-b975-44fb-926f-5e670eab6399",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Submeter login sem informar os dados obrigatórios: Deve ser exibida mensagem solicitando os dados obrigatórios",
+              "fullTitle": "Validar rotina de login Submeter login sem informar os dados obrigatórios: Deve ser exibida mensagem solicitando os dados obrigatórios",
+              "timedOut": null,
+              "duration": 1111,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_index.default.submeterLoginSemDadosObrigatorios();\ncy.wait('@waitFeed').then(resp => {\n  expect(resp.response.body).eq('Cannot read property \\'email\\' of undefined');\n  expect(resp.response.statusCode).eq(500);\n});",
+              "err": {},
+              "uuid": "e2331fd8-0743-4327-b0ea-b798f4b00917",
+              "parentUUID": "fd508a18-b975-44fb-926f-5e670eab6399",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Submter login com email invalido e senha valida: Deve ser exibida mensagem de alerta",
+              "fullTitle": "Validar rotina de login Submter login com email invalido e senha valida: Deve ser exibida mensagem de alerta",
+              "timedOut": null,
+              "duration": 1655,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_index.default.submeterLoginComEmailInvalido();\ncy.contains('email or password is invalid');",
+              "err": {},
+              "uuid": "d31c2b34-0ef8-4467-98bf-600a12ddc280",
+              "parentUUID": "fd508a18-b975-44fb-926f-5e670eab6399",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "d988a85f-f153-464a-b086-009e8b0285a2",
+            "e2331fd8-0743-4327-b0ea-b798f4b00917",
+            "d31c2b34-0ef8-4467-98bf-600a12ddc280"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 7868,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": true,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.0.1"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "mochawesome-report",
+        "quiet": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.0.1"
+    }
+  }
+}
