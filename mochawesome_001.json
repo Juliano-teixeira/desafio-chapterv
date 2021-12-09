@@ -1,0 +1,107 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-12-09T23:05:46.002Z",
+    "end": "2021-12-09T23:05:47.981Z",
+    "duration": 1979,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "3d1f1bb0-1c6c-46f3-a9c2-7fd426ca1248",
+      "title": "",
+      "fullFile": "cypress/integration/ui-login.spec.js",
+      "file": "cypress/integration/ui-login.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "bcced2a7-41a0-4bca-8532-68d80725b084",
+          "title": "Validando rotina de login",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Validando elementos em tela: Esperado que a tela tenha campos de input e botão de submite ",
+              "fullTitle": "Validando rotina de login Validando elementos em tela: Esperado que a tela tenha campos de input e botão de submite ",
+              "timedOut": null,
+              "duration": 1882,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_index.default.validadePropriedadesTela();",
+              "err": {},
+              "uuid": "d1bbc8f5-17e9-493e-b0b0-a01d6a2771e9",
+              "parentUUID": "bcced2a7-41a0-4bca-8532-68d80725b084",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "d1bbc8f5-17e9-493e-b0b0-a01d6a2771e9"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 1882,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": true,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.0.1"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "mochawesome-report",
+        "quiet": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.0.1"
+    }
+  }
+}
