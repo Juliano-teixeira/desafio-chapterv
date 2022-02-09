@@ -5,9 +5,9 @@
     "passes": 3,
     "pending": 0,
     "failures": 0,
-    "start": "2022-02-08T12:07:51.592Z",
-    "end": "2022-02-08T12:08:00.226Z",
-    "duration": 8634,
+    "start": "2022-02-09T12:09:29.696Z",
+    "end": "2022-02-09T12:09:41.098Z",
+    "duration": 11402,
     "testsRegistered": 3,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "37ca2463-3ba6-4caf-9588-f30be332d14d",
+      "uuid": "deab0342-51fc-44e3-990b-84c5b968335b",
       "title": "",
       "fullFile": "cypress/integration/end-to-end-login.spec.js",
       "file": "cypress/integration/end-to-end-login.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "bffe0d81-8224-49ea-aebe-3e2d3e6c5aee",
+          "uuid": "807d5ebc-bfbf-4b3f-9588-a752cded761d",
           "title": "Validar rotina de login",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Login com sucesso: Ao informar email/senha válidos, então o feed deve ser exibido",
               "fullTitle": "Validar rotina de login Login com sucesso: Ao informar email/senha válidos, então o feed deve ser exibido",
               "timedOut": null,
-              "duration": 5345,
+              "duration": 7638,
               "state": "passed",
               "speed": "medium",
               "pass": true,
@@ -47,8 +47,8 @@
               "context": null,
               "code": "_index.default.realizarLoginComSucesso();\n_index.default.validaTelaFeed();",
               "err": {},
-              "uuid": "21c5aec9-5d9e-47e5-ab74-610ee9ca47fd",
-              "parentUUID": "bffe0d81-8224-49ea-aebe-3e2d3e6c5aee",
+              "uuid": "67ec6604-b6cf-45fb-b425-c74fd1be05ba",
+              "parentUUID": "807d5ebc-bfbf-4b3f-9588-a752cded761d",
               "isHook": false,
               "skipped": false
             },
@@ -56,7 +56,7 @@
               "title": "Submeter login sem informar os dados obrigatórios: Deve ser exibida mensagem solicitando os dados obrigatórios",
               "fullTitle": "Validar rotina de login Submeter login sem informar os dados obrigatórios: Deve ser exibida mensagem solicitando os dados obrigatórios",
               "timedOut": null,
-              "duration": 1580,
+              "duration": 1311,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -65,8 +65,8 @@
               "context": null,
               "code": "_index.default.submeterLoginSemDadosObrigatorios();\ncy.wait('@waitFeed').then(resp => {\n  expect(resp.response.body).eq('Cannot read property \\'email\\' of undefined');\n  expect(resp.response.statusCode).eq(500);\n});",
               "err": {},
-              "uuid": "31947b65-0e48-4e5e-a45d-f55b2311e967",
-              "parentUUID": "bffe0d81-8224-49ea-aebe-3e2d3e6c5aee",
+              "uuid": "07592c18-4bed-4950-87b6-3ed3a70a468a",
+              "parentUUID": "807d5ebc-bfbf-4b3f-9588-a752cded761d",
               "isHook": false,
               "skipped": false
             },
@@ -74,7 +74,7 @@
               "title": "Submter login com email invalido e senha valida: Deve ser exibida mensagem de alerta",
               "fullTitle": "Validar rotina de login Submter login com email invalido e senha valida: Deve ser exibida mensagem de alerta",
               "timedOut": null,
-              "duration": 1572,
+              "duration": 2229,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -83,22 +83,22 @@
               "context": null,
               "code": "_index.default.submeterLoginComEmailInvalido();\ncy.contains('email or password is invalid');",
               "err": {},
-              "uuid": "046268e3-7314-49a6-a938-1d40c4d51eac",
-              "parentUUID": "bffe0d81-8224-49ea-aebe-3e2d3e6c5aee",
+              "uuid": "a0488057-5a74-4ccf-8b32-9ef9a23cda73",
+              "parentUUID": "807d5ebc-bfbf-4b3f-9588-a752cded761d",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "21c5aec9-5d9e-47e5-ab74-610ee9ca47fd",
-            "31947b65-0e48-4e5e-a45d-f55b2311e967",
-            "046268e3-7314-49a6-a938-1d40c4d51eac"
+            "67ec6604-b6cf-45fb-b425-c74fd1be05ba",
+            "07592c18-4bed-4950-87b6-3ed3a70a468a",
+            "a0488057-5a74-4ccf-8b32-9ef9a23cda73"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 8497,
+          "duration": 11178,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
