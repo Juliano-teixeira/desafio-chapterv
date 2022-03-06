@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2022-03-05T12:10:10.034Z",
-    "end": "2022-03-05T12:10:11.910Z",
-    "duration": 1876,
+    "start": "2022-03-06T12:12:56.641Z",
+    "end": "2022-03-06T12:12:58.464Z",
+    "duration": 1823,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "80ef3397-eed2-4a47-9415-af4c12e4a213",
+      "uuid": "bbf1e234-1636-444b-83e2-21354e09f2b4",
       "title": "",
       "fullFile": "cypress/integration/ui-login.spec.js",
       "file": "cypress/integration/ui-login.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "5a0779b5-6f0e-4043-ac6c-dd3ebf54ed51",
+          "uuid": "29a5b68d-ff06-4ec0-bab3-5cd949e6ff9e",
           "title": "Validando rotina de login",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Validando elementos em tela: Esperado que a tela tenha campos de input e botão de submite ",
               "fullTitle": "Validando rotina de login Validando elementos em tela: Esperado que a tela tenha campos de input e botão de submite ",
               "timedOut": null,
-              "duration": 1756,
+              "duration": 1738,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "_index.default.validadePropriedadesTela();",
               "err": {},
-              "uuid": "5ceb13cd-efc3-4e10-86b5-87ac92a2969a",
-              "parentUUID": "5a0779b5-6f0e-4043-ac6c-dd3ebf54ed51",
+              "uuid": "9c207430-ad0e-42ef-9362-4c5fdbea2b4b",
+              "parentUUID": "29a5b68d-ff06-4ec0-bab3-5cd949e6ff9e",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "5ceb13cd-efc3-4e10-86b5-87ac92a2969a"
+            "9c207430-ad0e-42ef-9362-4c5fdbea2b4b"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 1756,
+          "duration": 1738,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
