@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2022-03-13T12:10:37.210Z",
-    "end": "2022-03-13T12:10:38.751Z",
-    "duration": 1541,
+    "start": "2022-03-14T12:11:36.053Z",
+    "end": "2022-03-14T12:11:37.651Z",
+    "duration": 1598,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "44994caf-85b7-4b5c-a5ab-920d2854ffe5",
+      "uuid": "d21f6065-55b0-466c-893a-eebab8feae3e",
       "title": "",
       "fullFile": "cypress/integration/ui-login.spec.js",
       "file": "cypress/integration/ui-login.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "c44696b5-1ed3-4037-998f-160e6a9d73b5",
+          "uuid": "785b18aa-cb6b-4cfb-af74-ca937defa5a2",
           "title": "Validando rotina de login",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Validando elementos em tela: Esperado que a tela tenha campos de input e botão de submite ",
               "fullTitle": "Validando rotina de login Validando elementos em tela: Esperado que a tela tenha campos de input e botão de submite ",
               "timedOut": null,
-              "duration": 1450,
+              "duration": 1488,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "_index.default.validadePropriedadesTela();",
               "err": {},
-              "uuid": "97b771dc-0e8c-4ccf-beb0-ebc1b326c5b9",
-              "parentUUID": "c44696b5-1ed3-4037-998f-160e6a9d73b5",
+              "uuid": "4e791995-fca7-4bcc-b455-92b391136aed",
+              "parentUUID": "785b18aa-cb6b-4cfb-af74-ca937defa5a2",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "97b771dc-0e8c-4ccf-beb0-ebc1b326c5b9"
+            "4e791995-fca7-4bcc-b455-92b391136aed"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 1450,
+          "duration": 1488,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
